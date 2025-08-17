@@ -11,7 +11,8 @@ echo $_SESSION['email'];
 echo "<br>";
 echo $_SESSION["age"];
 
+//session works like a global variable, so you can access it from any page in the same session
+//session variables are stored on the server, so they are not visible to the user
+
 
 session_unset(); // remove all session variables when next page is loaded like testSession.php
-
-?>
